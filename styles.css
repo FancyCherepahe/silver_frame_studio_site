@@ -1,0 +1,59 @@
+header{
+    background-color: black; 
+    color: white; 
+    padding: 10px; 
+    position:sticky;
+    top: 0;
+    z-index: 999;
+    display:flex;
+    flex-direction: row;
+}
+.main_title{
+    text-align: center;
+}
+body{
+    font-family: sans-serif;
+    background-attachment: fixed;
+    background-image: url("https://media.discordapp.net/attachments/1385208329122615380/1388087897634111519/image.png?ex=685fb518&is=685e6398&hm=13ecd58c4144cb5c1ae99660b101bbc01b961dfdec66bdfabb91588a91e215dc&=&format=webp&quality=lossless&width=3375&height=1573");
+    background-size: cover;
+    background-position: center;
+}
+.nav_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.screenshot{
+    height: auto;
+    width: 98%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.main_text{
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+    margin: 20px;
+}
+footer{
+    background-color: darkorange;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+#easter_egg{
+    color: darkorange;
+    font-weight: bold;
+    text-decoration: none;
+}
+.easter_egg:hover{
+    color: red;
+    text-decoration: underline;
+}
+.easter_egg_body{
+    background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGVsb3U5Zjdwd25oM3JodTlxaTUycGZrbDJlejFhZ2lzcWZpbDVsNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WGkWVhLlPhW7u/giphy.gif");
+}
