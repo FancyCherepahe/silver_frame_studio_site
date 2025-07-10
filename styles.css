@@ -24,6 +24,12 @@ body{
     justify-content: space-around;
     align-items: center;
 }
+.nav_link{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
 .screenshot{
     height: auto;
     width: 70%;
