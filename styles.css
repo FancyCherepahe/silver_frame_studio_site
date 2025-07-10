@@ -26,10 +26,14 @@ body{
 }
 .screenshot{
     height: auto;
-    width: 98%;
+    width: 70%;
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.screenshots_div{
+    display: flex;
+    flex-direction: column;
 }
 .main_text{
     text-align: center;
